@@ -83,11 +83,11 @@
         }
 
         if (/^\d/.test(fname.value)) {
-            alert("tekstiväljad ei tohi olla tühjad");
+            alert("tekstiväljad ei tohi sisaldada numbreid");
             fname.focus();
             return;
         } else if (/^\d/.test(lname.value)) {
-            alert("tekstiväljad ei tohi olla tühjad");
+            alert("tekstiväljad ei tohi sisaldada numbreid");
             lname.focus();
             return;
         }
